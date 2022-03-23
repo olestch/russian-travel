@@ -1,0 +1,30 @@
+.footer__link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 18px 0 0;
+    padding: 0;
+}
+
+@media screen and (max-width:730px) {
+    .footer__link {
+        font-size: calc(16 / 730 * 100vw);
+        line-height: calc(18 / 730 * 100vw);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer__link {
+        margin: 32px 0 0 0;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .footer__link:nth-child(1) {
+        margin:0;
+    }
+}

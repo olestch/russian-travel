@@ -1,0 +1,13 @@
+.intro__box {
+    display: flex;
+    max-width:690px;
+    width: 100vw;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (max-width:768px) {
+    .intro__box {
+        max-width: calc(720 / 768 * 100vw);
+    }
+}

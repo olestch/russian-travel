@@ -1,0 +1,49 @@
+.place__title {
+    grid-area: 'title';
+    max-width: calc(460 / 1280 * 100vw);
+    margin:0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+@media screen and (max-width:1024px) {
+    .place__title {
+        font-size: calc( 72 / 1024 * 100vw);
+        line-height: calc( 76 / 1024 * 100vw);
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .place__title {
+        max-width: calc(288 / 320 * 100vw);
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .place__title {
+        font-size: calc(42 / 400 * 100vw);
+        line-height: calc(46 / 400 * 100vw);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-left: 16px;
+    }
+}

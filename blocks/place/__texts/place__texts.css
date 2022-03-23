@@ -1,0 +1,13 @@
+.place__texts {
+    grid-area: 'text';
+    width: calc(484 / 1280 * 100vw);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:500px) {
+    .place__texts {
+        max-width: calc(288 / 320 * 100vw);
+        margin-left: 16px;
+    }
+}

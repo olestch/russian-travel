@@ -1,0 +1,14 @@
+.place__website {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    grid-area: 'url';
+    width: calc(484 / 1280 * 100vw);
+}
+
+@media screen and (max-width:500px) {
+    .place__website {
+        max-width: calc(288 / 320 * 100vw);
+        margin-left: 16px;
+    }
+}

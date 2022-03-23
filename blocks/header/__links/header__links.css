@@ -1,0 +1,27 @@
+.header__links {
+    position: absolute;
+    top: 46px;
+    right: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__links {
+        right: calc(48 / 1024 * 90vw);
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .header__links {
+        top: calc(46 / 500 * 90vw);
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .header__links {
+        right:16px;
+        top:30px;
+    }
+    
+}
