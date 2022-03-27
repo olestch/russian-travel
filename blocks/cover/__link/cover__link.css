@@ -13,7 +13,7 @@
     background-size: cover;
     max-width: calc( 1184 / 1280 * 100vw);
     width: 100vw;
-    height: 62.5vw;
+    height: calc(740 / 1280 * 100vw);
     cursor: pointer;
 }
 
@@ -35,6 +35,14 @@
 
 @media screen and (max-width:1024px) {
     .cover__link {
+        width: calc(100vw - (100vw - 100%));
+        height: calc(640 / 1024 * 100vw);
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .cover__link {
         max-width: calc(100vw - (100vw - 100%));
+        height: calc(640 / 1024 * 100vw);
     }
 }

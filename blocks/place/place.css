@@ -21,12 +21,15 @@
 @media screen and (max-width:1024px) {
     .place {
         max-width: calc( 928 / 1024 * 100vw);
+        gap: 48px 32px;
     }
 }
 
 @media screen and (max-width:768px) {
     .place {
         max-width: calc( 720 / 768 * 100vw);
+        gap: 48px 28px;
+        margin-top: 73px;
     }
 }
 

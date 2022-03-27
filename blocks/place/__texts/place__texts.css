@@ -5,6 +5,18 @@
     flex-direction: column;
 }
 
+@media screen and (max-width:1024px) {
+    .place__texts {
+        width: calc(456 / 1024 * 100vw);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .place__texts {
+        width: calc(352 / 768 * 100vw);
+    }
+}
+
 @media screen and (max-width:500px) {
     .place__texts {
         max-width: calc(288 / 320 * 100vw);
