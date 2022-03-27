@@ -1,4 +1,4 @@
-.lead__image-box {
+.lead__figure {
     max-width: calc( 984 / 1280 * 100vw);
     width: 100vw;
     position: relative;
@@ -9,25 +9,25 @@
 }
 
 @media screen and (max-width:1024px) {
-    .lead__image-box {
+    .lead__figure {
         max-width: calc( 928 / 1024 * 100vw);
     }
 }
 
 @media screen and (max-width:768px) {
-    .lead__image-box {
+    .lead__figure {
         max-width: calc( 100vw - (100vw - 100%));
     }
 }
 
 @media screen and (max-width:520px) {
-    .lead__image-box {
+    .lead__figure {
         margin-top: calc( 64 / 520 * 100vw);
     }
 }
 
 @media screen and (max-width:320px) {
-    .lead__image-box {
+    .lead__figure {
         margin-top: 40px;
     }
 }

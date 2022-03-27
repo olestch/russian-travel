@@ -1,4 +1,33 @@
 .header {
+    margin: 28px auto 0 auto;
     position: relative;
-    height: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: calc((1184 / 1280 * 100vw) - (100vw - 100%));
+}
+
+@media screen and (max-width:1024px) {
+    .header {
+        max-width: calc((928 / 1024 * 100vw) - (100vw - 100%));
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        max-width: calc((720 / 768 * 100vw) - (100vw - 100%));
+    }
+}
+
+@media screen and (max-width:450px) {
+    .header {
+        margin-top: calc(28 / 450 * 100vw);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header {
+        max-width: calc((288 / 320 * 100vw) - (100vw - 100%));
+        margin-top: 16px;
+    }
 }

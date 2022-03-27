@@ -2,7 +2,7 @@
     max-width: calc(984 / 1280 * 100vw);
     position: relative;
     display: flex;
-    margin: 136px auto 0 auto;
+    margin: 56px auto 0 auto;
     flex-direction: column;
     align-items: center;
 }
@@ -10,7 +10,7 @@
 @media screen and (max-width:1024px) {
     .lead {
         max-width: calc( 928 / 1024 * 100vw);
-        margin-top: 128px;
+        margin-top: 48px;
     }
 }
 
@@ -22,13 +22,13 @@
 
 @media screen and (max-width:400px) {
     .lead {
-        margin-top: calc( 128 / 400 * 100vw);
+        margin-top: calc( 48 / 400 * 100vw);
     }
 }
 
 @media screen and (max-width:320px) {
     .lead {
-        margin-top: 106px;
+        margin-top: 48px;
     }
 }
 

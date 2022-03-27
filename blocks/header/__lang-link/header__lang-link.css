@@ -5,7 +5,11 @@
     font-weight: 400;
     font-size:24px;
     line-height:1.2;
-    cursor: url(../../../images/Pointer.svg), auto;
+    cursor: pointer;
+}
+
+.header__lang-link:nth-child(2) {
+    margin-left: 18px;
 }
 
 @media screen and (max-width:450px) {

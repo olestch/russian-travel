@@ -4,8 +4,9 @@
     max-height: calc( 615 / 1280 * 100vw);
     width: 100vw;
     height: 62.5vw;
-    background: url(../../../images/lead-polka.jpg);
-    background-size: cover;
+    object-fit: cover;
+    /*background: url(../../../images/lead-polka.jpg);
+    background-size: cover;*/
 }
 
 @media screen and (max-width:1024px) {
@@ -16,13 +17,13 @@
 }
 
 @media screen and (max-width:768px) {
-    /* .lead__image {
+    .lead__image {
         max-width: calc( 100vw - (100vw - 100%));
         max-height: calc(( 480 / 768 * 100vw) - ( 100vw - (100vw - 100%)));
-    } Проверял по разному, где то подходит одно, где то другое (( */
+    } 
 
-    .lead__image {
+    /*  .lead__image {
         max-width: 100vw;
-        max-height: calc( 480 / 768 * 100vw);
-    }
+        max-height: calc( 480 / 768 * 100vw); 
+    } */
 }

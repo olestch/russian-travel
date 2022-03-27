@@ -1,27 +1,12 @@
 .header__links {
-    position: absolute;
-    top: 46px;
-    right: 48px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width:320px) {  
     .header__links {
-        right: calc(48 / 1024 * 90vw);
+        margin-top: calc(14 / 320 * 100vw);
     }
-    
-}
-
-@media screen and (max-width: 500px) {
-    .header__links {
-        top: calc(46 / 500 * 90vw);
-    }
-    
-}
-
-@media screen and (max-width: 320px) {
-    .header__links {
-        right:16px;
-        top:30px;
-    }
-    
 }

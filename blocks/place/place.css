@@ -33,7 +33,7 @@
 @media screen and (max-width:500px) {
     .place {
         margin-top: 50px;
-        max-width: 100vw;
+        max-width: calc(100vw - (100vw - 100%));
         grid-template-areas:
         'title'
         'url'

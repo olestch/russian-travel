@@ -1,25 +1,7 @@
-
-
 .header__logo {
-    position: absolute;
-    left: 48px;
-    top: 28px;
+
     width: 176px;
     height: 52px; 
-}
-
-@media screen and (max-width: 1024px) {
-    .header__logo {
-        left: calc(48 / 1024 * 90vw);
-    }
-    
-}
-
-@media screen and (max-width: 768px) {
-    .header__logo {
-        top: calc(28 / 768 * 90vw);
-    }
-    
 }
 
 @media screen and (max-width: 400px) {
@@ -33,8 +15,5 @@
     .header__logo {
         width: 142px;
         height: 42px;
-        left:16px;
-        top:16px;
     }
-    
 }
