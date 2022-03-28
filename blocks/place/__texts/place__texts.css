@@ -17,6 +17,12 @@
     }
 }
 
+@media screen and (max-width:600px) {
+    .place__texts {
+        max-width: calc(100% - 10px);
+    }
+}
+
 @media screen and (max-width:500px) {
     .place__texts {
         max-width: calc(288 / 320 * 100vw);
