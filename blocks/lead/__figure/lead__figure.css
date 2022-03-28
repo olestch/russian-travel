@@ -11,12 +11,14 @@
 
 @media screen and (max-width:1024px) {
     .lead__figure {
+        margin-top: 56px;
         max-width: calc( 928 / 1024 * 100vw);
     }
 }
 
 @media screen and (max-width:768px) {
     .lead__figure {
+        margin-top: 56px;
         max-width: calc( 100vw - (100vw - 100%));
     }
 }

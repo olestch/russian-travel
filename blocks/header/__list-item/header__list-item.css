@@ -1,0 +1,8 @@
+.header__list-item {
+    margin: 0;
+    padding: 0;
+}
+
+.header__list-item:nth-child(2) {
+    margin-left: 18px;
+}

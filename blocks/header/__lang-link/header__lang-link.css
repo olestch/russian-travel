@@ -9,10 +9,6 @@
     transition: 0.4s;
 }
 
-.header__lang-link:nth-child(2) {
-    margin-left: 18px;
-}
-
 .header__lang-link:hover {
     opacity: 0.8;
 }
